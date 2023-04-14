@@ -17,12 +17,12 @@
 
 This is an inventory management system.
 A user can
-    - Add product group
-    - Add new product under those group
-    - Delete product group 
-    - Add Purchases(will increase the stocks)
-    - Add Sales
-    - See the purchases
+  - Add product group
+  - Add new product under those group
+  - Delete product group 
+  - Add Purchases(will increase the stocks)
+  - Add Sales
+  - See the purchases
 
 ### Screenshot
 
