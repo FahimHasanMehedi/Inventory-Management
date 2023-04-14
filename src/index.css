@@ -1,13 +1,78 @@
+:root {
+    --primary: #212529;
+    --secondary: #343a40;
+    --tertiary: #495057;
+    --mid: #adb5bd;
+    --light: #f8f9fa;
+    --blue-accent: #1c7ed6;
+    --red-accent: #fa5252
+}
+
+* {
+    /* border: 1px solid red; */
+    color: inheri;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.4px;
+    /* font-weight: 300; */
+}
+
+h1,
+h2,
+h3,
+p {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+html {
+    font-size: 62.5%;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    overflow: hidden;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+#root {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr;
+}
+
+/* main {
+    position: relative;
+    background-color: var(--secondary);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr;
+
+    gap: 0.8rem;
+
+    padding: 0.4rem 0.6rem 0.4rem 0.6rem;
+} */
+
+main{
+    background-color: var(--secondary);
+    padding: 0.4rem;
+}
+
+.active {
+    background-color: var(--blue-accent) !important;
 }

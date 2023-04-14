@@ -1,0 +1,5 @@
+.submit-button[disabled]{
+    color: var(--mid);
+    cursor: default;
+}
+

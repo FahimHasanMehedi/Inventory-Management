@@ -1,0 +1,59 @@
+.form-modal {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background: var(--secondary);
+    width: 48rem;
+    border: 1px solid var(--tertiary);
+    border-top: none;
+
+    height: 100%;
+    padding: 2.4rem 1.6rem;
+    color: var(--light);
+
+    z-index: 25;
+}
+
+.form-title {
+    font-size: 3rem;
+    margin: 0 0 1.4rem 0;
+}
+
+.form-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.form-button {
+    position: absolute;
+    background: var(--secondary);
+    border: 1px solid var(--tertiary);
+    padding: 1rem 2.8rem;
+
+    font-size: 1.4rem;
+    color: var(--light);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.submit-button {
+    right: 0%;
+    bottom: 0%;
+    transform: translate(-160%, -50%);
+}
+
+.cancel-button {
+    right: 0%;
+    bottom: 0%;
+    transform: translate(-20%, -50%);
+}
+
+.new-product-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.invalid-input input {
+    border: 1px solid var(--red-accent) !important;
+}

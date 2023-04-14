@@ -1,0 +1,7 @@
+.products-header {
+    grid-column: 1 / -1;
+    padding: 0.2rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}

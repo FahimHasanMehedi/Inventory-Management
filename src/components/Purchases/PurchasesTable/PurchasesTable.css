@@ -1,0 +1,58 @@
+.purchases-container {
+    display: flex;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.purchase-card {
+    flex-basis: 18rem;
+    flex-grow: 1;
+    height: 28rem;
+    background-color: var(--secondary);
+    color: var(--light);
+    border: 1px solid var(--tertiary);
+    padding: 0.8rem;
+
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.purchase-card ul {
+    list-style-type: none;
+    padding: 0rem 0.8rem;
+}
+
+.purchase-card-header {
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.purchase-card-header span {
+    font-weight: 400;
+}
+
+.purchase-items-list li {
+    font-size: 1.2rem;
+}
+
+.purchase-card table {
+    border: 1px solid var(--light);
+}
+
+.purchase-card td,
+.purchase-card th {
+    border: 1px solid var(--light);
+    padding: 0.6rem 1rem 0.6rem 0.2rem;
+}
+
+.purchase-card th {
+    font-weight: 600;
+    font-size: 1.3rem;
+    white-space: nowrap;
+}
+.purchase-card th:last-child {
+    width: 100%;
+    border-right: none;
+}

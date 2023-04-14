@@ -1,0 +1,38 @@
+.prompts{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    align-self: center;
+}
+
+.prompt-texts{
+    color: var(--light);
+}
+
+.prompt-texts h3{
+font-size: 2.4rem;
+font-weight: 300;
+margin-bottom: 1.4rem;
+letter-spacing: 1px;
+}
+
+.prompt-texts p{
+    font-size: 1.4rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.prompt-buttons{
+    display: flex;
+    gap: 0.8rem;
+    
+
+    align-self: flex-end;
+}
+
+.prompt-buttons button{
+    background: none;
+    border: 1px solid var(--tertiary);
+    padding: 1rem 4rem;
+    color: var(--light);
+    cursor: pointer;
+}

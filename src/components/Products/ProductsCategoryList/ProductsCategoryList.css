@@ -1,0 +1,30 @@
+.products-list-container{
+    width: 20rem;
+    background-color: var(--primary);
+    font-size: 1.4rem;
+    color: var(--light);
+    border: 1px solid var(--tertiary);
+}
+
+.category-products{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    
+}
+
+.products-list{
+    list-style-type: none;
+    padding: 0 0 0.8rem 5rem;
+}
+
+.category-button{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.2rem 0.6rem;
+    color: var(--light);
+}

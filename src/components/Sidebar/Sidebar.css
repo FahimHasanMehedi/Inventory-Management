@@ -1,0 +1,10 @@
+.sidebar {
+    background-color: var(--primary);
+    border-right: 1px solid var(--tertiary);
+    z-index: 15;
+}
+
+.lists {
+    list-style-type: none;
+}
+

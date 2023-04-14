@@ -1,0 +1,28 @@
+.products-dropdown-with-quantity {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.products-dropdown-with-quantity input {
+    /* align-self: flex-end; */
+    width: 6.5rem;
+    color: var(--light);
+    font-size: 1.4rem;
+    padding: 0.6rem 0.4rem;
+    background: none;
+    border: 1px solid var(--tertiary);
+}
+
+.products-dropdown-with-quantity input:focus {
+    outline: none;
+    border: 1px solid var(--blue-accent);
+}
+
+.products-add-button {
+    /* align-self: flex-end; */
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--light);
+}
